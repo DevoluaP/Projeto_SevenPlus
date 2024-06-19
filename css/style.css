@@ -20,12 +20,83 @@
 @media only screen and (max-width: 290px) {body{display: none}}
 
 /* Tela Mobile */
+.fraseNegrito {font-weight: 700}
+
+body main #esqueciSenha /* body main #emailEnviado */{display: none}
+
 body {
     background-color: var(--cl-dark);
     background-image: url(../imagens/fundo.svg);
 }
 
+body header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+}
 
+body header div img {
+    width: 40%;
+    margin: 10px;
+}
+
+body main {
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+}
+
+/*body main #esqueciSenha */ body main #emailEnviado {
+    width: 80%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding: 15px 20px;
+    border: 2px solid var(--cl-cyan);
+    border-radius: 20px;
+    background-color: var(--cl-dark);
+}
+
+body main #esqueciSenha p, body main #emailEnviado p {
+    color: var(--cl-white);
+    font-size: var(--fs-small);
+    margin-bottom: 10px;
+}
+
+body main, body main #esqueciSenha form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body main #esqueciSenha form #email {
+    width: 100%;
+    height: 40px;
+    padding: 3px;
+    border: 2px solid var(--cl-cyan);
+    border-radius: 10px;
+    font-size: var(--fs-small);
+    font-weight: 100;
+    margin: 10px 0 20px 0;
+}
+
+body main #esqueciSenha form .btn {
+    width: 80px;
+    height: 40px;
+    color: var(--cl-dark);
+    background-color: var(--cl-white);
+    border: 2px solid var(--cl-cyan);
+    font-size: var(--fs-small);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+body main #emailEnviado svg {
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
 
 /* Tela Tablet */
 @media only screen and (min-width: 570px) and (max-width: 767.99px) {
