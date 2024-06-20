@@ -4,9 +4,9 @@
     --cl-cyan: #5BC2E7;
     --cl-white: #FFF;
     --cl-dark: #11111E;
-    --fs-small: 20px;
-    --fs-medium: 36px;
-    --fs-large: 40px;
+    --fs-small: 5vw;
+    --fs-medium: 15vw;
+    --fs-large: 20vw;
 }
 
 * {
@@ -21,8 +21,6 @@
 
 /* Tela Mobile */
 .fraseNegrito {font-weight: 700}
-
-body main #esqueciSenha /* body main #emailEnviado */{display: none}
 
 body {
     background-color: var(--cl-dark);
@@ -43,11 +41,11 @@ body header div img {
 
 body main {
     width: 100%;
-    height: 60vh;
+    height: 85vh;
     justify-content: center;
 }
 
-/*body main #esqueciSenha */ body main #emailEnviado {
+body main #esqueciSenha, body main #emailEnviado, body main #novaSenha, body main #senhaAlterada {
     width: 80%;
     display: flex;
     align-items: left;
@@ -58,19 +56,32 @@ body main {
     background-color: var(--cl-dark);
 }
 
-body main #esqueciSenha p, body main #emailEnviado p {
+body main #emailEnviado, body main #senhaAlterada {align-items: center}
+
+body main #esqueciSenha p, body main #emailEnviado p, body main #novaSenha form label, body main #senhaAlterada p {
     color: var(--cl-white);
     font-size: var(--fs-small);
     margin-bottom: 10px;
 }
 
-body main, body main #esqueciSenha form {
+body main #novaSenha form label {margin-bottom: 0}
+
+body main #emailEnviado p, body main #senhaAlterada p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+body main #emailEnviado .fraseNegrito, body main #senhaAlterada .fraseNegrito, body main #senhaAlterada p {margin-top: 0}
+
+body main #senhaAlterada .fraseNegrito {text-align: center}
+
+body main, body main #esqueciSenha form, body main #novaSenha form {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-body main #esqueciSenha form #email {
+body main #esqueciSenha form #email, body main #novaSenha form #senha, body main #novaSenha form #confSenha {
     width: 100%;
     height: 40px;
     padding: 3px;
@@ -81,8 +92,8 @@ body main #esqueciSenha form #email {
     margin: 10px 0 20px 0;
 }
 
-body main #esqueciSenha form .btn {
-    width: 80px;
+body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {
+    width: 100px;
     height: 40px;
     color: var(--cl-dark);
     background-color: var(--cl-white);
@@ -93,10 +104,11 @@ body main #esqueciSenha form .btn {
 }
 
 body main #emailEnviado svg {
-    width: 50%;
-    height: 50%;
-    border-radius: 100%;
+    width: 45%;
+    height: 45%;
 }
+
+body main #emailEnviado, body main #senhaAlterada {display: none}
 
 /* Tela Tablet */
 @media only screen and (min-width: 570px) and (max-width: 767.99px) {
