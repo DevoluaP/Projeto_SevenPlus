@@ -20,21 +20,15 @@
 
     <main>
         <article id="novaSenha">
-            <form method="post" action="#">
+            <form method="post" id="formNovaSenha" action="senha-alterada.html">
                 <label>Digite sua nova senha</label>
-                <input type="password" name="senha" id="senha" placeholder="Nova Senha">
+                <input type="password" name="senha" id="senha" placeholder="Nova Senha" required>
                 
                 <label>Repita sua nova senha</label>
-                <input type="password" name="confSenha" id="confSenha" placeholder="Nova Senha">
+                <input type="password" name="confSenha" id="confSenha" placeholder="Nova Senha" required>
 
-                <input type="submit" class="btn" value="Pronto">
+                <input type="submit" class="btn" id="btnNovaSenha" value="Pronto">
             </form>
-        </article>
-
-        <article id="senhaAlterada">
-            <p class="fraseNegrito">Senha alterada com sucesso!</p>
-            <p>Sua senha foi alterada com sucesso, aproveite nosso serviço.</p>
-            <button class="btn">Entrar</button>
         </article>
     </main>
 

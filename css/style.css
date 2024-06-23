@@ -4,9 +4,7 @@
     --cl-cyan: #5BC2E7;
     --cl-white: #FFF;
     --cl-dark: #11111E;
-    --fs-small: 5vw;
-    --fs-medium: 15vw;
-    --fs-large: 20vw;
+    --fs-mobile: 5vw;
 }
 
 * {
@@ -60,7 +58,7 @@ body main #emailEnviado, body main #senhaAlterada {align-items: center}
 
 body main #esqueciSenha p, body main #emailEnviado p, body main #novaSenha form label, body main #senhaAlterada p {
     color: var(--cl-white);
-    font-size: var(--fs-small);
+    font-size: var(--fs-mobile);
     margin-bottom: 10px;
 }
 
@@ -87,7 +85,7 @@ body main #esqueciSenha form #email, body main #novaSenha form #senha, body main
     padding: 3px;
     border: 2px solid var(--cl-cyan);
     border-radius: 10px;
-    font-size: var(--fs-small);
+    font-size: var(--fs-mobile);
     font-weight: 100;
     margin: 10px 0 20px 0;
 }
@@ -98,7 +96,7 @@ body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #se
     color: var(--cl-dark);
     background-color: var(--cl-white);
     border: 2px solid var(--cl-cyan);
-    font-size: var(--fs-small);
+    font-size: var(--fs-mobile);
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -108,19 +106,38 @@ body main #emailEnviado svg {
     height: 45%;
 }
 
-body main #emailEnviado, body main #senhaAlterada {display: none}
-
 /* Tela Tablet */
 @media only screen and (min-width: 570px) and (max-width: 767.99px) {
+    body main #esqueciSenha, body main #emailEnviado, body main #novaSenha, body main #senhaAlterada {width: 60%}
 
+    body main #esqueciSenha p, body main #emailEnviado p, body main #novaSenha form label, body main #senhaAlterada p, body main #esqueciSenha form #email, body main #novaSenha form #senha, body main #novaSenha form #confSenha, body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {font-size: 4vw}
+
+    body main #esqueciSenha form #email, body main #novaSenha form #senha, body main #novaSenha form #confSenha, body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {height: 60px}
+
+    body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {width: 120px}
 }
 
 /* Tela Desktop */
 @media only screen and (min-width: 768px) {
+    body main #esqueciSenha, body main #emailEnviado, body main #novaSenha, body main #senhaAlterada {width: 40%}
 
+    body main #esqueciSenha p, body main #emailEnviado p, body main #novaSenha form label, body main #senhaAlterada p, body main #esqueciSenha form #email, body main #novaSenha form #senha, body main #novaSenha form #confSenha, body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {font-size: 2.7vw}
+
+    body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {width: 140px}
 }
 
 /* Tela Desktop Largo */
 @media only screen and (min-width: 1300px) {
+    body main #esqueciSenha, body main #emailEnviado, body main #novaSenha, body main #senhaAlterada {width: 30%}
 
+    body main #esqueciSenha p, body main #emailEnviado p, body main #novaSenha form label, body main #senhaAlterada p, body main #esqueciSenha form #email, body main #novaSenha form #senha, body main #novaSenha form #confSenha, body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {font-size: 2.09vw}
+
+    body main #esqueciSenha form #email, body main #novaSenha form #senha, body main #novaSenha form #confSenha, body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {height: 70px}
+
+    body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {width: 160px}
+
+    body main #emailEnviado svg {
+        width: 38%;
+        height: 38%;
+    }
 }
