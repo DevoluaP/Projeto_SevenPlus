@@ -127,6 +127,12 @@ body main #emailEnviado svg {
         width: 140px;
         cursor: pointer;
     }
+
+    body main #esqueciSenha form .btn:hover, body main #novaSenha form .btn:hover, body main #senhaAlterada .btn:hover {
+        color: var(--cl-white);
+        background-color: var(--cl-cyan);
+        transition: 0.3s;
+    }
 }
 
 /* Tela Desktop Largo */
