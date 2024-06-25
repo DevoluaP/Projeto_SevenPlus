@@ -129,16 +129,7 @@ body main #emailEnviado svg {
 
     body main #esqueciSenha p, body main #emailEnviado p, body main #novaSenha form label, body main #senhaAlterada p, body main #esqueciSenha form #email, body main #novaSenha form #senha, body main #novaSenha form #confSenha, body main #esqueciSenha form .btn, body main #emailEnviado .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {font-size: 2.7vw}
 
-    body main #esqueciSenha form .btn, body main #emailEnviado .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {
-        width: 140px;
-        cursor: pointer;
-    }
-
-    body main #esqueciSenha form .btn:hover, body main #emailEnviado .btn:hover, body main #novaSenha form .btn:hover, body main #senhaAlterada .btn:hover {
-        color: var(--cl-white);
-        background-color: var(--cl-cyan);
-        transition: 0.3s;
-    }
+    body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {width: 140px}
 }
 
 /* Tela Desktop Largo */
