@@ -39,7 +39,7 @@ body header {
 }
 
 body header div img {
-    width: 40%;
+    height: 10vh;
     margin: 10px;
 }
 
@@ -88,6 +88,8 @@ body main, body main #esqueciSenha form, body main #novaSenha form {
 body main #esqueciSenha form #email, body main #novaSenha form #senha, body main #novaSenha form #confSenha {
     width: 100%;
     height: 40px;
+    color: var(--cl-white);
+    background-color: var(--cl-dark);
     padding: 3px;
     border: 2px solid var(--cl-cyan);
     border-radius: 10px;
@@ -99,8 +101,8 @@ body main #esqueciSenha form #email, body main #novaSenha form #senha, body main
 body main #esqueciSenha form .btn, body main #emailEnviado .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {
     width: 100px;
     height: 40px;
-    color: var(--cl-dark);
-    background-color: var(--cl-white);
+    color: var(--cl-white);
+    background-color: var(--cl-dark);
     border: 2px solid var(--cl-cyan);
     font-size: var(--fs-mobile);
     font-weight: 400;
@@ -129,21 +131,12 @@ body main #emailEnviado svg {
 
     body main #esqueciSenha p, body main #emailEnviado p, body main #novaSenha form label, body main #senhaAlterada p, body main #esqueciSenha form #email, body main #novaSenha form #senha, body main #novaSenha form #confSenha, body main #esqueciSenha form .btn, body main #emailEnviado .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {font-size: 2.7vw}
 
-<<<<<<< HEAD
     body main #esqueciSenha form .btn, body main #emailEnviado .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {
-=======
-    body main #esqueciSenha form .btn, body main #novaSenha form .btn, body main #senhaAlterada .btn {
->>>>>>> 9c14d46c16523cde8bd3627da4ad4c7c5cac0b3f
         width: 140px;
         cursor: pointer;
     }
 
-<<<<<<< HEAD
     body main #esqueciSenha form .btn:hover, body main #emailEnviado .btn:hover, body main #novaSenha form .btn:hover, body main #senhaAlterada .btn:hover {
-=======
-    body main #esqueciSenha form .btn:hover, body main #novaSenha form .btn:hover, body main #senhaAlterada .btn:hover {
->>>>>>> 9c14d46c16523cde8bd3627da4ad4c7c5cac0b3f
-        color: var(--cl-white);
         background-color: var(--cl-cyan);
         transition: 0.3s;
     }
