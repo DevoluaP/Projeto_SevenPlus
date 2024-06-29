@@ -14,9 +14,6 @@
     font-family: "K2D", sans-serif;
 }
 
-/* Tela indisponivel */
-@media only screen and (max-width: 290px) {body{display: none}}
-
 /* Tela Mobile */
 .fraseNegrito {font-weight: 700}
 
@@ -157,3 +154,6 @@ body main #emailEnviado svg {
         height: 38%;
     }
 }
+
+/* Tela indisponivel */
+@media only screen and (max-width: 290px) {body{display: none}}
