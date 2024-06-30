@@ -55,6 +55,8 @@ body, html {
     margin-top: 30px;
 }
 
+.menu__desktop {display: none}
+
 .cabecalho__navegacao__lista-esquerda {
     width: 100vw;
     height: 200vh;
@@ -77,8 +79,9 @@ body, html {
 
 .cabecalho__navegacao__lista-direita {
     display: flex;
+    align-items: center;
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .cabecalho__navegacao__lista-direita__item {margin: 0 10px}
@@ -86,17 +89,24 @@ body, html {
 .cabecalho__navegacao__lista-direita__item svg {
     width: 30px;
     height: 30px;
+    display: flex;
+    cursor: pointer;
+    margin-top: -50px;
 }
 
-.cabecalho__navegacao__lista-direita__item svg {
-    cursor: pointer;
-    display: flex;
-    margin-top: -50px;
+.cabecalho__navegacao__lista-direita__item img {
+    width: 40px;
+    height: 40px;
+    margin: -55px 0 0 5px;
+    position: fixed;
 }
 
 .cabecalho__navegacao__lista-esquerda, #btnClose, .main__navegacao {display: none}
 
-#btnPerfil, #btnClose {position: fixed}
+#btnPerfil, #btnClose {
+    margin-left: 25px;
+    position: fixed;
+}
 
 body main {
     flex: 1;
@@ -245,6 +255,16 @@ body main article section hr {width: 100%}
 @media only screen and (min-width: 768px) {
     .cabecalho__logo {max-height: 110px}
 
+    .menu__desktop {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .menu__desktop li a h3 {
+        color: var(--cl-white);
+        margin-right: 20px;
+    }
+
     .cabecalho__navegacao__lista-esquerda, .cabecalho__navegacao__lista-direita {display: flex}
 
     .cabecalho__navegacao__lista-esquerda {
@@ -254,18 +274,25 @@ body main article section hr {width: 100%}
         margin-top: 150px;
     }
 
+    .cabecalho__navegacao__lista-esquerda__item, .cabecalho__navegacao__lista-esquerda__item__ancora {display: none}
+
     .cabecalho__navegacao__lista-esquerda h3 {font-size: 2.8vw}
 
-    .cabecalho__navegacao__lista-esquerda__item, .cabecalho__navegacao__lista-direita__item {margin: 0 10px}
-
-    .cabecalho__navegacao__lista-esquerda__item__ancora {color: var(--cl-white)}
+    .cabecalho__navegacao__lista-direita__item {margin: 0 10px}
     
-    .cabecalho__navegacao__lista-direita {margin-right: 40px}
+    .cabecalho__navegacao__lista-direita {margin-right: 90px}
 
     .cabecalho__navegacao__lista-direita__item svg, body main article .main__navegacao ul li a svg {
         width: 40px;
         height: 40px;
     }
+
+    .cabecalho__navegacao__lista-direita__item img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #btnPerfil, #btnClose {margin-left: 45px}
 
     body main article .conteudo {width: 40%}
 
@@ -282,7 +309,7 @@ body main article section hr {width: 100%}
         color: #000;
     }
 
-    body main article .main__navegacao ul li a:hover {
+    body main article .main__navegacao ul li a:hover, .menu__desktop li a h3:hover, .rodape__links li a:hover {
         color: var(--cl-cyan);
         transition: 0.3s;
         transform: scale(1.1);

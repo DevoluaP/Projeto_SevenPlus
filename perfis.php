@@ -14,6 +14,17 @@
     <header class="cabecalho">
         <img src="imagens/logo.svg" alt="Logomarca S7V7N+" class="cabecalho__logo">
         <nav class="cabecalho__navegacao">
+            <ul class="menu__desktop">
+                <li>
+                    <a href="#"><h3>Início</h3></a>
+                </li>
+                <li>
+                    <a href="#"><h3>Filmes</h3></a>
+                </li>
+                <li>
+                    <a href="#"><h3>Séries</h3></a>
+                </li>
+            </ul>
             <ul class="cabecalho__navegacao__lista-esquerda" id="menu">
                 <li class="cabecalho__navegacao__lista-esquerda__item">
                     <a href="#" class="cabecalho__navegacao__lista-esquerda__item__ancora"><h3>Início</h3></a>
@@ -52,11 +63,14 @@
                     </svg>
                 </li>
                 <li class="cabecalho__navegacao__lista-direita__item">
-                    <svg xmlns="http://www.w3.org/2000/svg" id="btnPerfil" width="50" height="50" fill="#FFF" class="bi bi-person-fill" viewBox="0 0 16 16">
-                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    <img src="imagens/user.png" alt="Foto de usuário">
+                </li>
+                <li class="cabecalho__navegacao__lista-direita__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="btnPerfil" width="50" height="50" fill="#FFF" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
                     </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" id="btnClose" width="50" height="50" fill="#FFF" class="bi bi-x" viewBox="0 0 16 16">
-                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" id="btnClose" width="50" height="50" fill="#FFF" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                        <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
                     </svg>
                 </li>
             </ul>
