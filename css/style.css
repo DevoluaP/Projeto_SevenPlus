@@ -286,6 +286,11 @@ body main #emailEnviado svg {
 
     .cabecalho__navegacao__lista-esquerda h3 {font-size: 2.8vw}
 
+    .cabecalho__navegacao__lista-esquerda li a h3:hover {
+        color: var(--cl-cyan);
+        transition: 0.3s;
+    }
+
     .cabecalho__navegacao__lista-direita__item {margin: 0 10px}
     
     .cabecalho__navegacao__lista-direita {margin-right: 90px}
