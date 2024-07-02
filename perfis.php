@@ -7,7 +7,7 @@
     <meta property="og:description" content="Plataforma de streaming">
     <meta property="og:image" content="#">
     <title>S7V7N+</title>
-    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/config-style.css">
     <link rel="shortcut icon" type="image/x-icon" href="imagens/logo.svg">
 </head>
 <body>
@@ -169,6 +169,6 @@
         </div>
     </footer>
 
-    <script type="text/javascript" language="JavaScript" src="js/script.js"></script>
+    <script type="text/javascript" language="JavaScript" src="js/script-menu.js"></script>
 </body>
 </html>
