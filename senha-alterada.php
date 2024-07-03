@@ -1,3 +1,15 @@
+<?php
+    $senha = $_POST['senha'];
+    $confSenha = $_POST['confSenha'];
+
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
+        if (($_POST['senha']) !== ($_POST['confSenha']) || ($_POST['confSenha']) == null || ($_POST['senha']) == null) {
+            echo "<script>alert('As senhas não coincidem!\\nDigite as senhas novamente!');</script>";
+            echo "<script>window.location.href = 'nova-senha.php';</script>";
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

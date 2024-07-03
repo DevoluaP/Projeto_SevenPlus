@@ -105,6 +105,13 @@
         </div>
     </footer>
     
-    <script type="text/javascript" language="JavaScript" src="js/script-menu.js"></script>
+    <script type="text/javascript" language="JavaScript" src="js/script-menu.js">
+        document.getElementById('btnNovaSenha').addEventListener('click', function () {
+            if ((document.getElementById('senha').value) !== (document.getElementById('confSenha').value) || (document.getElementById('confSenha').value) == null || (document.getElementById('senha').value) == null) {
+                alert("As senhas não coincidem!\nDigite as senhas novamente!");
+                document.getElementById('form').setAttribute('action', 'nova-senha.php');
+            }
+        });
+    </script>
 </body>
 </html>
