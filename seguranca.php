@@ -6,13 +6,13 @@
     <meta property="og:title" content="S7V7N+">
     <meta property="og:description" content="Plataforma de streaming">
     <meta property="og:image" content="#">
-    <title>S7V7N+</title>
+    <title>Segurança</title>
     <link rel="stylesheet" type="text/css" href="css/config-style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="imagens/logo.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
 </head>
 <body>
     <header class="cabecalho">
-        <img src="imagens/logo.svg" alt="Logomarca S7V7N+" class="cabecalho__logo">
+        <img src="img/logo.svg" alt="Logomarca S7V7N+" class="cabecalho__logo">
         <nav class="cabecalho__navegacao">
             <ul class="menu__desktop">
                 <li>
@@ -63,7 +63,7 @@
                     </svg>
                 </li>
                 <li class="cabecalho__navegacao__lista-direita__item">
-                    <img src="imagens/user.png" alt="Foto de usuário">
+                    <img src="img/user.png" alt="Foto de usuário">
                 </li>
                 <li class="cabecalho__navegacao__lista-direita__item">
                     <svg xmlns="http://www.w3.org/2000/svg" id="btnPerfil" width="50" height="50" fill="#FFF" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
@@ -82,7 +82,7 @@
             <section class="main__navegacao">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="pagina-home.php">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
                             </svg>
@@ -129,7 +129,7 @@
                 <h3>Segurança</h3>
                 <div class="container__pai">
                     <div class="container__filho">
-                        <a href="#">
+                        <a href="nova-senha.php">
                             <div class="container__neto__seguranca">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
                                     <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2M5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1"/>
@@ -156,7 +156,7 @@
                         </a>
                     </div>
                     <hr class="linha__seguranca">
-                    <button href="#">Excluir conta</button>
+                    <a href="#"><button>Excluir conta</button></a>
                 </div>
             </section>
         </article>
@@ -165,7 +165,7 @@
     <footer class="rodape">
         <div class="rodape__conteudo">
             <div class="rodape__logo-wrapper">
-                <img src="imagens/logo-escuro.svg" alt="Logomarca S7V7N+" class="rodape__logo">
+                <img src="img/logo-escuro.svg" alt="Logomarca S7V7N+" class="rodape__logo">
             </div>
             <ul class="rodape__links">
                 <li><a href="#">Termos e aviso de privacidade</a></li>

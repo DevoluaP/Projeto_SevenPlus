@@ -6,13 +6,13 @@
     <meta property="og:title" content="S7V7N+">
     <meta property="og:description" content="Plataforma de streaming">
     <meta property="og:image" content="#">
-    <title>S7V7N+</title>
+    <title>Email enviado</title>
     <link rel="stylesheet" type="text/css" href="css/esqueci-senha-style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="imagens/logo.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
 </head>
 <body>
     <header class="cabecalho">
-        <img src="imagens/logo.svg" alt="Logomarca S7V7N+" class="cabecalho__logo">
+        <img src="img/logo.svg" alt="Logomarca S7V7N+" class="cabecalho__logo">
         <nav class="cabecalho__navegacao">
             <ul class="menu__desktop">
                 <li>
@@ -63,7 +63,7 @@
                     </svg>
                 </li>
                 <li class="cabecalho__navegacao__lista-direita__item">
-                    <img src="imagens/user.png" alt="Foto de usuário">
+                    <img src="img/user.png" alt="Foto de usuário">
                 </li>
                 <li class="cabecalho__navegacao__lista-direita__item">
                     <svg xmlns="http://www.w3.org/2000/svg" id="btnPerfil" width="50" height="50" fill="#FFF" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
@@ -84,14 +84,14 @@
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
             </svg>
             <p>Acesse a caixa de entrada do seu email e abra o email que te enviamos contendo o link para alterar sua senha.</p>
-            <button class="btn" href="#">Home</button>
+            <a href="pagina-inicial.php"><button class="btn">Home</button></a>
         </article>
     </main>
 
     <footer class="rodape">
         <div class="rodape__conteudo">
             <div class="rodape__logo-wrapper">
-                <img src="imagens/logo-escuro.svg" alt="Logomarca S7V7N+" class="rodape__logo">
+                <img src="img/logo-escuro.svg" alt="Logomarca S7V7N+" class="rodape__logo">
             </div>
             <ul class="rodape__links">
                 <li><a href="#">Termos e aviso de privacidade</a></li>

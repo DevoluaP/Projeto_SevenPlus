@@ -6,13 +6,13 @@
     <meta property="og:title" content="S7V7N+">
     <meta property="og:description" content="Plataforma de streaming">
     <meta property="og:image" content="#">
-    <title>S7V7N+</title>
+    <title>Esqueci a senha</title>
     <link rel="stylesheet" type="text/css" href="css/esqueci-senha-style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="imagens/logo.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
 </head>
 <body>
     <header class="cabecalho">
-        <img src="imagens/logo.svg" alt="Logomarca S7V7N+" class="cabecalho__logo">
+        <img src="img/logo.svg" alt="Logomarca S7V7N+" class="cabecalho__logo">
         <nav class="cabecalho__navegacao">
             <ul class="menu__desktop">
                 <li>
@@ -63,7 +63,7 @@
                     </svg>
                 </li>
                 <li class="cabecalho__navegacao__lista-direita__item">
-                    <img src="imagens/user.png" alt="Foto de usuário">
+                    <img src="img/user.png" alt="Foto de usuário">
                 </li>
                 <li class="cabecalho__navegacao__lista-direita__item">
                     <svg xmlns="http://www.w3.org/2000/svg" id="btnPerfil" width="50" height="50" fill="#FFF" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
@@ -84,15 +84,15 @@
             <form method="post" id="formEsqueciSenha" action="email-enviado.php">
                 <input type="email" name="email" id="email" placeholder="Email" required>
                 <input type="submit" class="btn" id="btnEsqueciSenha" value="Enviar">
-                <button class="btn" href="#">Voltar</button>
             </form>
+            <a href="#"><button>Voltar</button></a>
         </article>
     </main>
 
     <footer class="rodape">
         <div class="rodape__conteudo">
             <div class="rodape__logo-wrapper">
-                <img src="imagens/logo-escuro.svg" alt="Logomarca S7V7N+" class="rodape__logo">
+                <img src="img/logo-escuro.svg" alt="Logomarca S7V7N+" class="rodape__logo">
             </div>
             <ul class="rodape__links">
                 <li><a href="#">Termos e aviso de privacidade</a></li>
