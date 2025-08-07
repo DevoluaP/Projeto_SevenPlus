@@ -6,8 +6,8 @@ function escolherPlano(plano, preco) {
         },
         body: 'tipo_plano=' + encodeURIComponent(plano) + '&preco=' + encodeURIComponent(preco)
     })
-        .then(response => response.text())
-        .then(data => {
-            window.location.href = 'pagamento.php';
-        });
+    .then(response => response.text())
+    .then(data => {
+        window.location.href = 'pagamento.php';
+    });
 }
