@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="headerEfooter/style.css">
-<link rel="stylesheet" href="headerEfooter/stylefooter.css">
+<link rel="stylesheet" href="headerEfooter/style-footer.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">

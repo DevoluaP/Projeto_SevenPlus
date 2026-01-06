@@ -17,12 +17,17 @@
   width: 100%;
   height: 100vh;
   flex-direction: column;
-  background-image: linear-gradient(to right, rgb(0, 0, 0) 15%, rgba(255, 255, 255, -100)), url(../img/imagem-fundo.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 0, 0) 15%,
+      rgba(255, 255, 255, -100)
+    ),
+    url(../img/fundo.png);
   background-size: cover;
   background-position: center center;
 }
 
-.corpo main #caixa-corpo #assista0 {
+.corpo main #caixa-corpo #texto1 {
   margin-top: 250px;
   margin-bottom: 30px;
   margin-left: 50px;
@@ -30,34 +35,41 @@
   color: #ffffff;
 }
 
-.corpo main #caixa-corpo #assista {
+.corpo main #caixa-corpo #texto2 {
   margin-top: 15px;
   margin-bottom: 30px;
   margin-left: 50px;
   font-size: 24px;
-  color: #ffffff;
+  color: #ffffffcc;
 }
 
-.corpo main #caixa-corpo .entrar {
+.corpo main #caixa-corpo .btn-login {
   width: 10%;
   height: 35px;
   border-radius: 10px;
   border: none;
   margin-left: 50px;
   margin-bottom: 5px;
+  transition: 0.3s;
 }
 
-.corpo main #caixa-corpo .entrar1 {
+.corpo main #caixa-corpo .btn-cadastro {
   width: 10%;
   height: 35px;
   border-radius: 10px;
   border: none;
   margin-left: 50px;
+  transition: 0.3s;
 }
 
-.corpo main #caixa-corpo #assista2 {
+.corpo main #caixa-corpo .btn-login:hover, .corpo main #caixa-corpo .btn-cadastro:hover {
+  background-color: #5bc2e7;
+  transition: 0.3s;
+}
+
+.corpo main #caixa-corpo #texto3 {
   margin-top: 100px;
   margin-bottom: 30px;
   margin-left: 50px;
-  color: #ffffff;
+  color: #ffffffcc;
 }

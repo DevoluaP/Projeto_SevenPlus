@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta property="og:title" content="S7V7N+">
+        <meta property="og:title" content="Seven Plus">
         <meta property="og:description" content="Plataforma de streaming">
         <meta property="og:image" content="#">
         <?php include_once ("headerEfooter/import-css.php");?>
         <title>Quem está assistindo?</title>
-        <link rel="stylesheet" href="css/quemEstaAssistindo-style.css">
+        <link rel="stylesheet" href="css/style-quemEstaAssistindo.css">
         <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
     </head>
     <body>
@@ -24,19 +24,19 @@
                 <div class="interno">
                     <div class="item">
                         <a href="pagina-home.php">
-                            <img src="img/SenhoraPerfil.jpg" class="item" width="200" height="200" alt="perfil1"/>
+                            <img src="img/zeze.png" class="item" width="200" height="200" alt="zeze"/>
                             <h3>Perfil 1</h3>
                         </a>
                     </div>
                     <div class="item">
                         <a href="pagina-home.php">
-                            <img src="img/JovemNegro.jpg" class="item" width="200" height="200" alt="perfil2"/>
+                            <img src="img/buzz.png" class="item" width="200" height="200" alt="buzz"/>
                             <h3>Perfil 2</h3>
                         </a>
                     </div>
                     <div class="item">
                         <a href="pagina-home.php">
-                            <img src="img/CriançaPintada.jpg" class="item" width="200" height="200" alt="perfil3"/>
+                            <img src="img/thor.png" class="item" width="200" height="200" alt="thor"/>
                             <h3>Perfil 3</h3>
                         </a>    
                     </div>

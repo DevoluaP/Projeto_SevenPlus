@@ -3,16 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="S7V7N+">
+        <meta property="og:title" content="Seven Plus">
         <meta property="og:description" content="Plataforma de streaming">
         <meta property="og:image" content="#">
         <title>Assinatura</title>
-        <link rel="stylesheet" type="text/css" href="css/config-style.css">
+        <link rel="stylesheet" type="text/css" href="css/style-config.css">
         <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
     </head>
     <body>
         <header class="cabecalho">
-            <img src="img/logo.svg" alt="Logomarca S7V7N+" class="cabecalho__logo">
+            <img src="img/logo.svg" alt="Logo Seven Plus" class="cabecalho__logo">
             <nav class="cabecalho__navegacao">
                 <ul class="menu__desktop">
                     <li>
@@ -145,7 +145,7 @@
                             <a href="#">
                                 <div>
                                     <p>Comprar novo usuário</p>
-                                    <p>Crie mais perfis no seu Seven+</p>
+                                    <p>Crie mais perfis no seu Seven Plus</p>
                                 </div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
@@ -199,14 +199,14 @@
         <footer class="rodape">
             <div class="rodape__conteudo">
                 <div class="rodape__logo-wrapper">
-                    <img src="img/logo-escuro.svg" alt="Logomarca S7V7N+" class="rodape__logo">
+                    <img src="img/logo-escuro.svg" alt="Logo Seven Plus" class="rodape__logo">
                 </div>
                 <ul class="rodape__links">
                     <li><a href="#">Termos e aviso de privacidade</a></li>
                     <li><a href="#">Envie-nos comentários</a></li>
                     <li><a href="#">Precisa de ajuda?</a></li>
                 </ul>
-                <p>© 2024, Seven +, Inc. ou suas afiliadas</p>
+                <p>© 2024 Seven Plus, Inc</p>
             </div>
         </footer>
         <script type="text/javascript" language="JavaScript" src="js/script-menu.js"></script>

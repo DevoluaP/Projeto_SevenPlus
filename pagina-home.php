@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="S7V7N+">
+        <meta property="og:title" content="Seven Plus">
         <meta property="og:description" content="Plataforma de streaming">
         <meta property="og:image" content="#">
         <link rel="stylesheet" href="css/style.css">
@@ -16,7 +16,7 @@
     </head>
     <body class="corpo">
         <header class="cabecalho">
-            <img src="img/logo 1.svg" alt="Logo da Seven Plus" class="cabecalho__logo">
+            <img src="img/logo.svg" alt="Logo Seven Plus" class="cabecalho__logo">
             <nav class="cabecalho__navegacao">
                 <ul class="cabecalho__navegacao__lista-esquerda">
                     <li class="cabecalho__navegacao__lista-esquerda__item">
@@ -44,7 +44,7 @@
                         </svg>
                     </li>
                     <li class="cabecalho__navegacao__lista-direita__item">
-                        <img src="img/user.svg" alt="ícone de usuário">
+                        <img src="img/user.png" alt="ícone de usuário" class="imagem__user">
                     </li>
                     <li class="cabecalho__navegacao__lista-direita__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
@@ -57,79 +57,75 @@
         <main>
             <section class="banner">
                 <div class="banner__div">
-                    <img src="img/poster 1.png" alt="Titulo do Filme SPIDERHEAD">
-                    <p>Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica</p>
+                    <img src="img/poster.png" alt="Titulo do Filme SPIDERHEAD">
+                    <p>
+                        Em uma penitenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica.
+                    </p>
                     <div class="banner__div__botoes">
                         <a href="#" class="banner__div__botoes__ancora">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
                                 <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
                             </svg>
-                        Assistir</a>
+                            Assistir
+                        </a>
                         <a href="#" class="banner__div__botoes__ancora">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
                                 <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
                             </svg>
-                        Mais informações</a>
+                            Mais informações
+                        </a>
                     </div>
                 </div>
             </section>
             <section class="categorias">
-                <p class="categorias__nome">
-                    Minha lista
-                </p>
+                <p class="categorias__nome">Minha lista</p>
                 <div class="categorias__trilho">
                     <img src="img/trilhos/Trilho1/poster_01.png" alt="Imagem da série Bojack Horseman" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho1/poster_02.png" alt="Imagem da cinematográfica Ozark" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho1/poster_02.png" alt="Imagem da série Ozark" class="categorias__trilho__item">
                     <img src="img/trilhos/Trilho1/poster_03.png" alt="Imagem do filme A vizinha da mulher na janela" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho1/poster_04.png" alt="Imagem da série Braking Bad" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho1/poster_05.png" alt="Imagem da produção cinematográfica The end of the fuking world" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho1/poster_04.png" alt="Imagem da série Breaking Bad" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho1/poster_05.png" alt="Imagem da série The end of the fucking world" class="categorias__trilho__item">
                 </div>
-                <p class="categorias__nome">
-                    Em alta
-                </p>
+                <p class="categorias__nome">Em alta</p>
                 <div class="categorias__trilho">
                     <img src="img/trilhos/Trilho2/poster_01.png" alt="Imagem da série Bojack Horseman" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho2/poster_02.png" alt="Imagem da cinematográfica Ozark" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho2/poster_02.png" alt="Imagem da série Ozark" class="categorias__trilho__item">
                     <img src="img/trilhos/Trilho2/poster_03.png" alt="Imagem do filme A vizinha da mulher na janela" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho2/poster_04.png" alt="Imagem da série Braking Bad" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho2/poster_05.png" alt="Imagem da produção cinematográfica The end of the fuking world" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho2/poster_04.png" alt="Imagem da série Breaking Bad" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho2/poster_05.png" alt="Imagem da série The end of the fucking world" class="categorias__trilho__item">
                 </div>
-                <p class="categorias__nome">
-                    Séries estrangeiras
-                </p>
+                <p class="categorias__nome">Séries estrangeiras</p>
                 <div class="categorias__trilho">
                     <img src="img/trilhos/Trilho3/poster_01.png" alt="Imagem da série Bojack Horseman" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho3/poster_02.png" alt="Imagem da cinematográfica Ozark" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho3/poster_02.png" alt="Imagem da série Ozark" class="categorias__trilho__item">
                     <img src="img/trilhos/Trilho3/poster_03.png" alt="Imagem do filme A vizinha da mulher na janela" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho3/poster_04.png" alt="Imagem da série Braking Bad" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho3/poster_05.png" alt="Imagem da produção cinematográfica The end of the fuking world" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho3/poster_04.png" alt="Imagem da série Breaking Bad" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho3/poster_05.png" alt="Imagem da série The end of the fucking world" class="categorias__trilho__item">
                 </div>
-                <p class="categorias__nome">
-                    Séries excêntricas de humor ácido
-                </p>
+                <p class="categorias__nome">Séries excêntricas de humor ácido</p>
                 <a href="#section3" class="arrow__btn"></a>
                 <div class="categorias__trilho">
                     <img src="img/trilhos/Trilho4/poster_01.png" alt="Imagem da série Bojack Horseman" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho4/poster_02.png" alt="Imagem da cinematográfica Ozark" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho4/poster_02.png" alt="Imagem da série Ozark" class="categorias__trilho__item">
                     <img src="img/trilhos/Trilho4/poster_03.png" alt="Imagem do filme A vizinha da mulher na janela" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho4/poster_04.png" alt="Imagem da série Braking Bad" class="categorias__trilho__item">
-                    <img src="img/trilhos/Trilho4/poster_05.png" alt="Imagem da produção cinematográfica The end of the fuking world" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho4/poster_04.png" alt="Imagem da série Breaking Bad" class="categorias__trilho__item">
+                    <img src="img/trilhos/Trilho4/poster_05.png" alt="Imagem da série The end of the fucking world" class="categorias__trilho__item">
                 </div>
             </section>
         </main>
         <footer class="rodape">
            <div class="rodape__redes-sociais">
-                <a href="https://www.facebook.com/netflixbrasil/?locale=pt_BR" target="_blank">
-                    <i class="fa-brands fa-facebook-f fa-2xl" style="color: #ffffff;"></i>
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-facebook-f fa-2xl" style="color: #fff;"></i>
                 </a>
-                <a href="https://www.instagram.com/netflixbrasil/" target="_blank">
-                    <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-instagram fa-2xl" style="color: #fff;"></i>
                 </a>
-                <a href="https://twitter.com/NetflixBrasil?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-                    <i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i>
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-twitter fa-2xl" style="color: #fff;"></i>
                 </a>
-                <a href="https://www.youtube.com/channel/UCc1l5mTmAv2GC_PXrBpqyKQ" target="_blank">
-                    <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
+                <a href="#" target="_blank">
+                    <i class="fa-brands fa-youtube fa-2xl" style="color: #fff;"></i>
                 </a>
            </div>
            <div class="rodape__listas">

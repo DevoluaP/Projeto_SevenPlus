@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta property="og:title" content="S7V7N+">
+        <meta property="og:title" content="Seven Plus">
         <meta property="og:description" content="Plataforma de streaming">
         <meta property="og:image" content="#">
         <?php include_once ("headerEfooter/import-css.php");?>
         <title>Gerenciar forma de pagamento</title>
-        <link rel="stylesheet" href="css/gerenciaFormaPgto-style.css">
+        <link rel="stylesheet" href="css/style-gerenciaFormaPgto.css">
         <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
     </head>
     <body>

@@ -18,6 +18,7 @@ html {
   padding: 40px 20px;
   text-align: center;
   color: white;
+  position: fixed;
   overflow: hidden;
   width: 100%;
   bottom: 0;

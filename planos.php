@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta property="og:title" content="S7V7N+">
+        <meta property="og:title" content="Seven Plus">
         <meta property="og:description" content="Plataforma de streaming">
         <meta property="og:image" content="#">
         <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
-        <link rel="stylesheet" href="css/planos-style.css">
+        <link rel="stylesheet" href="css/style-planos.css">
         <?php include_once ("headerEfooter/import-css.php");?>
         <title>Escolha seu Plano</title>
     </head>
@@ -31,11 +31,9 @@
                             <p>Áudio espacial (som imersivo)</p>
                             <h3>Incluso</h3>
                             <p>Aparelhos compatíveis</p>
-                            <h3>TV, computador, celular, tablet</h3>
+                            <h3>TV, Computador, Celular e Tablet</h3>
                             <p>Aparelhos para assistir ao mesmo tempo na sua residência</p>
                             <h3>4</h3>
-                            <p>Aparelhos de download</p>
-                            <h3>6</h3>
                             <p>Anúncios</p>
                             <h3>Sem anúncios</h3>
                         </div>
@@ -50,10 +48,8 @@
                             <p>Resolução</p>
                             <h3>1080p (Full HD)</h3>
                             <p>Aparelhos compatíveis</p>
-                            <h3>TV, computador, celular, tablet</h3>
+                            <h3>TV, Computador, Celular e Tablet</h3>
                             <p>Aparelhos para assistir ao mesmo tempo na sua residência</p>
-                            <h3>2</h3>
-                            <p>Aparelhos de download</p>
                             <h3>2</h3>
                             <p>Anúncios</p>
                             <h3>Sem anúncios</h3>
@@ -69,10 +65,8 @@
                             <p>Resolução</p>
                             <h3>1080p (Full HD)</h3>
                             <p>Aparelhos compatíveis</p>
-                            <h3>TV, computador, celular, tablet</h3>
+                            <h3>TV, Computador, Celular e Tablet</h3>
                             <p>Aparelhos para assistir ao mesmo tempo na sua residência</p>
-                            <h3>2</h3>
-                            <p>Aparelhos de download</p>
                             <h3>2</h3>
                             <p>Anúncios</p>
                             <h3>Menos do que você pensa</h3>
@@ -83,6 +77,6 @@
         <footer class="rodape">
             <?php include_once("headerEfooter/footer.html");?>
         </footer>
-        <script type="text/JavaScript" language="JavaScript" src="js/valida-page-planos.js"></script>
+        <script type="text/JavaScript" language="JavaScript" src="js/script-planos.js"></script>
     </body>
 </html>

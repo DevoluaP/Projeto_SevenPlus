@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="S7V7N+">
+        <meta property="og:title" content="Seven Plus">
         <meta property="og:description" content="Plataforma de streaming">
         <meta property="og:image" content="#">
         <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
         <link rel="stylesheet" href="css/style-pagina-inicial.css">
         <?php include_once ("headerEfooter/import-css.php");?>
-        <title>Seven +</title>
+        <title>Seven Plus</title>
     </head>
     <body class="corpo">
         <header class="cabecalho">
@@ -18,22 +18,22 @@
         <main>
             <div id="caixa-corpo">
                 <div id="caixa-corpo2">
-                    <div id="assista0">
+                    <div id="texto1">
                         Filmes, Séries e muito mais!
                     </div>
-                    <div id="assista">
-                        Assista na sua TV<br>
-                        Aproveite a tela grande da TV com seus Amigos e Familia.
+                    <div id="texto2">
+                        Assista na sua TV!<br>
+                        Aproveite a tela grande para ver com amigos e família.
                     </div>
                     <form action="login.php">
-                        <input type="submit" class="entrar" value="Já é Seven? Faça login">
+                        <input type="submit" class="btn-login" value="Faça login">
                     </form>
                     <form action="cadastro.php">
-                        <input type="submit" class="entrar1" value="Crie sua conta">
+                        <input type="submit" class="btn-cadastro" value="Crie sua conta">
                     </form>
-                    <div id="assista2">
-                        Baixe séries para assistir Offline<br>
-                        Aproveite a tela grande da TV com seus Amigos e Familia. Assista no seu carro, trem ou até Foguete.
+                    <div id="texto3">
+                        Baixe conteúdo para assistir Offline.<br>
+                        Enorme catálogo de filmes e séries para você assistir de onde quiser.
                     </div>
                 </div>
             </div>

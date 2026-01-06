@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="S7V7N+">
+        <meta property="og:title" content="Seven Plus">
         <meta property="og:description" content="Plataforma de streaming">
         <meta property="og:image" content="#">
         <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
@@ -31,7 +31,7 @@
             <div class="container">
                 <div class="account-box">
                     <div class="device-info">
-                        <p>Aparelho X</p>
+                        <p>PC Windows 11</p>
                         <button class="logout-button">Sair</button>
                     </div>
                     <div class="profile-info">
@@ -47,7 +47,7 @@
                 </div>
                 <div class="account-box">
                     <div class="device-info">
-                        <p>Aparelho X</p>
+                        <p>Samsung S21</p>
                         <button class="logout-button">Sair</button>
                     </div>
                     <div class="profile-info">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="account-box">
                     <div class="device-info">
-                        <p>Aparelho X</p>
+                        <p>Samsung S20</p>
                         <button class="logout-button">Sair</button>
                     </div>
                     <div class="profile-info">
@@ -79,7 +79,7 @@
                 </div>
                 <div class="account-box">
                     <div class="device-info">
-                        <p>Aparelho X</p>
+                        <p>iPhone 14</p>
                         <button class="logout-button">Sair</button>
                     </div>
                     <div class="profile-info">

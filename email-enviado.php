@@ -3,16 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="S7V7N+">
+        <meta property="og:title" content="Seven Plus">
         <meta property="og:description" content="Plataforma de streaming">
         <meta property="og:image" content="#">
         <title>Email enviado</title>
-        <link rel="stylesheet" type="text/css" href="css/esqueci-senha-style.css">
+        <link rel="stylesheet" type="text/css" href="css/style-esqueci-senha.css">
         <link rel="shortcut icon" type="image/x-icon" href="img/logo.svg">
     </head>
     <body>
         <header class="cabecalho">
-            <img src="img/logo.svg" alt="Logomarca S7V7N+" class="cabecalho__logo">
+            <img src="img/logo.svg" alt="Logo Seven Plus" class="cabecalho__logo">
             <nav class="cabecalho__navegacao">
                 <ul class="menu__desktop">
                     <li>
@@ -82,21 +82,21 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
                 </svg>
-                <p>Acesse a caixa de entrada do seu email e abra o email que te enviamos contendo o link para alterar sua senha.</p>
+                <p>Acesse a caixa de entrada do seu email, e abra o email que te enviamos contendo o link para alterar sua senha.</p>
                 <a href="pagina-inicial.php"><button class="btn">Home</button></a>
             </article>
         </main>
         <footer class="rodape">
             <div class="rodape__conteudo">
                 <div class="rodape__logo-wrapper">
-                    <img src="img/logo-escuro.svg" alt="Logomarca S7V7N+" class="rodape__logo">
+                    <img src="img/logo-escuro.svg" alt="Logo Seven Plus" class="rodape__logo">
                 </div>
                 <ul class="rodape__links">
                     <li><a href="#">Termos e aviso de privacidade</a></li>
                     <li><a href="#">Envie-nos comentários</a></li>
                     <li><a href="#">Precisa de ajuda?</a></li>
                 </ul>
-                <p>© 2024, Seven +, Inc. ou suas afiliadas</p>
+                <p>© 2024 Seven Plus, Inc</p>
             </div>
         </footer>
         <script type="text/javascript" language="JavaScript" src="js/script-menu.js"></script>

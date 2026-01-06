@@ -1,7 +1,7 @@
-@import url("../src/banner.css");
-@import url("../src/cabecalho.css");
-@import url("../src/categorias.css");
-@import url("../src/rodape.css");
+@import url("banner.css");
+@import url("cabecalho.css");
+@import url("categorias.css");
+@import url("rodape.css");
 
 :root {
   --cor-padrao: #fff;
@@ -21,7 +21,7 @@
   font-family: var(--fonte-padrao);
   font-size: var(--tamanho-padrao);
   font-weight: var(--peso-padrao);
-  background-image: url("../img/Imagem-fundo.png");
+  background-image: url("../img/fundo-home.png");
   background-repeat: no-repeat;
   background-size: contain;
   box-shadow: inset 0 0 8rem 3rem black;
